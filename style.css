@@ -1,0 +1,82 @@
+body {
+  text-align: center;
+}
+
+.container {
+  max-height: 6vh;
+  z-index: 1;
+}
+
+textarea {
+  width: 100%;
+  min-height: 40vh;
+  overflow: auto;
+  margin: auto;
+  display: inline-block;
+  background: white;
+  outline: none;
+  font-family: Courier, sans-serif;
+  font-size: 14px;
+  resize: none;
+  border: none;
+}
+
+textarea::placeholder {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5em;
+  color: black;
+}
+
+iframe {
+  bottom: 0;
+  position: relative;
+  width: 100%;
+  height: 40vh;
+  border: 0;
+  -webkit-transition: height 1s; 
+  -moz-transition: height 1s; 
+  -ms-transition: height 1s; 
+  -o-transition: height 1s; 
+  transition: height 1s;  
+}
+
+.iframe-selected {
+  height: 84vh;
+  -webkit-transition: height 1s; 
+  -moz-transition: height 1s; 
+  -ms-transition: height 1s; 
+  -o-transition: height 1s; 
+  transition: height 1s;  
+}
+
+#insider-logo{
+  height: 10vh;
+}
+
+.area{
+border: 1px solid black;
+}
+
+#panel{
+  width:98%;
+  margin: 0 auto;
+}
+
+#table-header{
+  border: 1px solid black;
+  text-align: right;
+  padding-right: 1em;
+}
+
+#min {
+  cursor: pointer;
+}
+
+#run {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  max-height: 280px;
+  overflow-y: auto;
+}
